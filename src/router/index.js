@@ -7,8 +7,11 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
+      // путь который будет отслеживаться
       path: '/',
+      // название рута
       name: 'mainPage',
+      // коспонент который будет подгружен при переходе на данный рут
       component: mainPage,
     },
   ],
